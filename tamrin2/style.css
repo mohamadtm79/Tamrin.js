@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+.container-fluid .row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-fluid .row h1 {
+  color: aliceblue;
+  transform: translate(0px, -720px);
+  font-size: 300px;
+  pointer-events: none;
+  -webkit-animation: 2s forwards;
+          animation: 2s forwards;
+  position: absolute;
+  left: 32%;
+  color: currentcolor;
+}
+.container-fluid .row .mohamad {
+  width: 39%;
+  background-image: linear-gradient(to right, #000000, #202324, #293a3b, #1b2621, #000000);
+  border-radius: 34px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.container-fluid .row .mohamad > span {
+  width: 100%;
+  color: red;
+  font-size: 19px;
+  margin: 12px 0;
+  display: none;
+}
+.container-fluid .row .mohamad h4 {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-bottom: 1px solid rgb(1, 84, 201);
+}
+.container-fluid .row .mohamad > div {
+  width: 100%;
+  margin-top: 15px;
+}
+.container-fluid .row .mohamad > div > img {
+  width: 100%;
+}
+.container-fluid .row .mohamad input {
+  width: 71%;
+  font-size: 22px;
+  height: 31%;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.container-fluid .row .mohamad input::-moz-placeholder {
+  color: #fff;
+}
+.container-fluid .row .mohamad input:-ms-input-placeholder {
+  color: #fff;
+}
+.container-fluid .row .mohamad input::placeholder {
+  color: #fff;
+}
+.container-fluid .row .mohamad button {
+  width: 20%;
+  height: 22%;
+  font-size: 1.1em;
+  background-color: #3d64e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 1.5em;
+}
+
+@-webkit-keyframes anime {
+  0% {
+    transform: translate(0px, -720px);
+    transition: 2s;
+  }
+  100% {
+    transform: translate(-395px, -101px);
+  }
+}
+
+@keyframes anime {
+  0% {
+    transform: translate(0px, -720px);
+    transition: 2s;
+  }
+  100% {
+    transform: translate(-395px, -101px);
+  }
+}/*# sourceMappingURL=style.css.map */
